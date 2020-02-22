@@ -1,5 +1,5 @@
 import cv2 as cv
-import os as os
+import os
 def ImgColorConversion(folder):
     for filename in os.listdir(folder):
         img = cv.imread(os.path.join(folder,filename))
